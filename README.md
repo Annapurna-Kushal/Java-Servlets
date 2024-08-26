@@ -1,2 +1,2 @@
-# SEGMENTATION-
-How segmention in the operating system works, Code.
+JAVA SERVLETS 
+Code based on Java servlets
