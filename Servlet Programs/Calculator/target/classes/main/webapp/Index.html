@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+<h2>Calculator</h2>
+<form action="CalculatorServlet" method="post">
+    <input type="number" name="num1" step="any" required> <br>
+    <select name="operation" required>
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select> <br>
+    <input type="number" name="num2" step="any" required> <br>
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>
